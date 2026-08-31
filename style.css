@@ -84,3 +84,34 @@ header{
     background: var(--orange-color);
     transition: all 0.3s ease-in-out;
 }
+.menu-icon {
+    background: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    height: 2.172rem;
+    width: 2.172rem;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+    z-index: 200;
+    transition: 0.3s
+}
+.menu-icon div {
+    display: block;
+    background: var(--bg-color);
+    height: 2px;
+    width: 23px;
+    transition: 0.3s;
+ }
+ .move .line1{
+    transform: rotate(-45deg) translate(-5px, 5px);
+ }
+ .move .line2{
+    opacity: 0;
+ }
+ .move .line3{
+    transform: rotate(45deg) translate(-5px, -5px);
+ }
