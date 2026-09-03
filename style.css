@@ -139,4 +139,29 @@ header{
     text-transform: uppercase;
     margin-top: 3rem;
  }
+ .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+ }
+ .heading h2{
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+ }
+ .view-btn{
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid var(--text-color);
+    padding: 7px 16px;
+    border-radius: 2rem;
+ }
+ .view-btn:hover{
+    background: var(--text-color);
+    color: var(--bg-color);
+    transition: all 0.3s ease-in-out;
+ }
 
