@@ -14,7 +14,7 @@
     --red-color: #fb2f28;
     --text-color: #2e2c2a;
     --container-color: #f3efea;
-    --big-color:#fff;
+    --bg-color:#fff;
     --text-alter-color: #454440;
 
 }
@@ -164,4 +164,24 @@ header{
     color: var(--bg-color);
     transition: all 0.3s ease-in-out;
  }
+ .categories-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 1.5rem;
+ }
+ .category-box{
+    background: var(--container-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+ }
+ .category-box img{
+    max-width: 250px;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+ }
+ 
 
