@@ -13,5 +13,12 @@ var swiper = new Swiper('.testimonial-content', {
           el: '.swiper-pagination',
           clickable: true,
         },
-
-      });
+        breakpoints: {
+            320:{
+                slidesPerView: 1,
+            },
+            1024:{
+                slidesPerView: 1.5,
+            }
+      }
+    });
