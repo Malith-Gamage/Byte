@@ -308,7 +308,7 @@ header{
 }
 .testimonial-box{
     display: flex;
-    boarer: 1px solid var(--text-color);
+    border: 1px solid var(--text-color);
     margin-bottom: 3.5rem !important;
 }
 .testimonial-box img{
@@ -356,4 +356,19 @@ header{
 .swiper-pagination-bullet-active{
     width: 1.5rem !important;
     background: var(--orange-color) !important;
+}
+.newsletter{
+    background: var(--container-color);
+    text-transform: uppercase;
+}
+.newsletter h2{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.newsletter p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--text-color);
+    text-align: center;
 }
