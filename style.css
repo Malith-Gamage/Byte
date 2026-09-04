@@ -12,7 +12,7 @@
     --orange-color: #ff6a01;
     --second-color: #dc6640;
     --red-color: #fb2f28;
-    --text-color: #2e2c2a;
+    --text-color: #000000;
     --container-color: #f3efea;
     --bg-color:#fff;
     --text-alter-color: #454440;
@@ -75,7 +75,7 @@ header{
 }
 .nav-icons i{
     background: var(--text-color);
-    color: var(--big-color);
+    color: var(--bg-color);
     font-size: 18px;
     padding: 8px;
     border-radius: 50%;
@@ -101,7 +101,7 @@ header{
 }
 .menu-icon div {
     display: block;
-    background: var(--big-color);
+    background: var(--bg-color);
     height: 2px;
     width: 23px;
     transition: 0.3s;
