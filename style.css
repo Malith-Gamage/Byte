@@ -372,3 +372,20 @@ header{
     color: var(--text-color);
     text-align: center;
 }
+.newsletter form{
+    max-width: 600px;
+    margin: 1.8rem auto auto auto;
+    doisplay: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--text-color);
+    padding: 7px;
+    border-radius: 5rem;
+}
+.newsletter form input{
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 1.17rem;
+    background: transparent;
+}
