@@ -588,4 +588,17 @@ header.shadow {
     .menu-open{
         right: 0;
     }
+    .home-content{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .home-text h1{
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+    .home-text p{
+        font-size: 1.5rem;
+        margin: 1.5rem;
+    }
+    
 }

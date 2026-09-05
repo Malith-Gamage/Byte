@@ -6,6 +6,11 @@ menu.onclick = () => {
     navbar.classList.toggle("menu-open");
 };
 
+window.onscroll = () =>{
+  menu.classList.remove("move");
+  navbar.classList.remove("menu-open");
+}
+
 let header = document.querySelector('header');
 
 window.addEventListener('scroll', () => {
