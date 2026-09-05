@@ -47,6 +47,9 @@ header.shadow{
     border-bottom: 1px solid var(--text-color);
     transition: 0.4s;
 }
+.shadow .nav{
+    border-bottom: none;
+}
 .nav{
     display: flex;
     align-items: center;
@@ -470,3 +473,20 @@ header.shadow{
     padding-top: 30px;
 }
 
+@media (max-width: 1130px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px){
+    section{
+        padding: 2rem 0 ;
+    }
+    .logo img{
+        width: 55px;
+    }
+    .menu-icon{
+        display: flex;
+    }
+}
