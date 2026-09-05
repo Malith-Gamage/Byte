@@ -42,6 +42,11 @@ header{
     width: 100%;
     z-index: 100;
 }
+header.shadow{
+    background: var(--container-color);
+    border-bottom: 1px solid var(--text-color);
+    transition: 0.4s;
+}
 .nav{
     display: flex;
     align-items: center;
@@ -454,5 +459,14 @@ header{
 }
 .footer-box strong{
     color: var(--text-color);
+}
+.copyright{
+    text-align: center;
+    color: var(--text-alter-color);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top: 1px solid var(--text-color);
+    padding-top: 30px;
 }
 
